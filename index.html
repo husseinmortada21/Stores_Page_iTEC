@@ -1,0 +1,127 @@
+<head>
+    
+    <style>
+    .container2111 {
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        padding: 20px;
+
+    }
+    
+    .left-section2111 {
+        width: 35%;
+        background-color: #f5f5f5;
+        padding: 20px;
+    }
+    
+    .right-section2111 {
+        width: 60%;
+    }
+   
+    .btn {
+  border: none;
+  font-family: 'Lato';
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+  font-family: 'FontAwesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+  padding: 25px 25px 25px 70px;
+}
+
+.btn-sep:before {
+  background: rgba(0,0,0,0.15);
+}
+
+/* Button 1 */
+.btn-1 {
+  background: #3498db;
+  color: #fff;
+}
+
+.btn-1:hover {
+  background: #2980b9;
+}
+
+.btn-1:active {
+  background: #2980b9;
+  top: 2px;
+}
+
+.btn-1:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+.icon-info:before {
+  content: "\f05a";
+}
+
+    </style>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container2111">
+        <div class="left-section2111">
+            <strong><h2 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">I-TEC ALVALADE</h2></strong>
+        <Strong><h2 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Endereço:</h2></Strong>
+            <P>Avenida comandante gika no84<br>
+                Alvalade,Luanda</P>
+        <strong> <h2 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Telefone:</h2></strong>
+            <p>(244) 916 72 72 72 <br>
+                (244) 935 777 777</p>
+            </p>
+        <strong><h2 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">E-mail:</h2></strong>
+        <p>vendas@itec.co.ao<br>
+        online@itec.co.ao</p>
+            <button class="btn btn-1 btn-sep icon-info"><a target="_blank" style="color:#fff;text-decoration: none;" href="https://www.google.com/maps/place/ITEC+LDA+Alvalade/@-8.8334594,13.2337844,17z/data=!3m1!4b1!4m6!3m5!1s0x1a51f3ba3460518b:0xf113aea62f405c12!8m2!3d-8.8334647!4d13.2363593!16s%2Fg%2F11hcfm_pqx?entry=ttu">Get Directions</a></button>
+        </div>
+        <div class="right-section2111">
+            <iframe src="https://maps.google.com/maps?width=100%&height=400&hl=en&coord=-8.8334647,13.2363593&q=Av.%20Cmte.%20Gika%2084%2C%20Luanda%2C%20Angola+(ITEC%20LDA)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+             marginwidth="0" marginheight="0" scrolling="no" width="85%" height="500" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+</html>
